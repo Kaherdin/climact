@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_milestones_with_arrows",
+  "info": {
+    "displayName": "Milestones with arrow",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

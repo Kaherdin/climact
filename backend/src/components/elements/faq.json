@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_faqs",
+  "info": {
+    "displayName": "Faq",
+    "icon": "fire"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "faqQuestions": {
+      "displayName": "faqQuestions",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.faq-questions"
+    }
+  }
+}

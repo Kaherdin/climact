@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_indicators",
+  "info": {
+    "displayName": "indicators",
+    "icon": "check-double"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

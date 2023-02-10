@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_recents_publications",
+  "info": {
+    "displayName": "Recents publication"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

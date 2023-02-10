@@ -1,0 +1,25 @@
+//Project Card
+.kr-card-background {
+  align-items: center;
+  .card-body {
+    position: static;
+    width: 100%;
+  }
+  @include media-breakpoint-up(md) {
+    .card-body {
+      position: absolute;
+      z-index: 10;
+      bottom: 16px;
+      width: calc(100% - 32px);
+    }
+  }
+}
+.kr-navbar {
+  width: 100%;
+  @include media-breakpoint-up(md) {
+    width: calc(100% - 32px) !important;
+  }
+  // &.navbar-absolute {
+  //   position: absolute;
+  // }
+}

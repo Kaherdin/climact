@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_act_nows",
+  "info": {
+    "displayName": "Act Now",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text",
+      "maxLength": 550
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@each $prop, $value in $theme-gradient-colors {
+  .bg-gradient-#{$prop} {
+    @include gradient-directional(
+      nth($value, 1) 0%,
+      nth($value, -1) 100%,
+      $deg: 90deg
+    );
+  }
+}
+
+@each $prop, $value in $theme-colors {
+  .bg-gradient-faded-#{$prop} {
+    background-image: radial-gradient(
+      370px circle at 80% 50%,
+      rgba($value, 0.6) 0,
+      darken($value, 10%) 100%
+    );
+  }
+}
+
+@each $prop, $value in $theme-colors {
+  .bg-gradient-faded-#{$prop}-vertical {
+    background-image: radial-gradient(
+      200px circle at 50% 70%,
+      rgba($value, 0.3) 0,
+      $value 100%
+    );
+  }
+}
+
+.bg-gradient-multicolors {
+  background-image: linear-gradient(
+      to right bottom,
+      #b2e3ca,
+      #86d1c7,
+      #5dbcc9,
+      #41a6ca,
+      #448dc4,
+      #3f8cc4,
+      #398ac4,
+      #3289c4,
+      #00a0c8,
+      #22b4c3,
+      #5ac6b9,
+      #8cd5b0
+    ),
+    radial-gradient(
+      circle,
+      rgba(63, 185, 123, 0.44021358543417366) 10%,
+      rgba(102, 103, 171, 0.9136029411764706) 73%
+    );
+}

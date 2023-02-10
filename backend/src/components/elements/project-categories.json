@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_elements_project_categories",
+  "info": {
+    "displayName": "Project categories",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "challenge_title": {
+      "type": "string"
+    },
+    "leader_title": {
+      "type": "string"
+    },
+    "collaborator_title": {
+      "type": "string"
+    },
+    "milestone_title": {
+      "type": "string"
+    },
+    "funding_title": {
+      "type": "string"
+    },
+    "gallery_title": {
+      "type": "string"
+    },
+    "objective_title": {
+      "type": "string"
+    },
+    "links_documents_title": {
+      "type": "string"
+    },
+    "sdg_title": {
+      "type": "string"
+    },
+    "partner_title": {
+      "type": "string"
+    },
+    "output_title": {
+      "type": "string"
+    }
+  }
+}

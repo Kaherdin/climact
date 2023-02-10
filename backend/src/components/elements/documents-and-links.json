@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_documents_and_links",
+  "info": {
+    "displayName": "Documents and Links",
+    "icon": "file-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

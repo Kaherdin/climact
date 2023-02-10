@@ -1,0 +1,139 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Members",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projects_leader": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "inversedBy": "leaders"
+    },
+    "projects_collaborator": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "inversedBy": "collaborators"
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "surname": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "affiliation_uni": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "website_link": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "twitter": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "linkedin": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "pluginOptions": {}
+    },
+    "biography": {
+      "type": "text",
+      "pluginOptions": {}
+    },
+    "affiliation_fac": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "job_title": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "email": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "types": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::type.type",
+      "mappedBy": "members"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::post.post",
+      "mappedBy": "authors"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "members"
+    },
+    "posts_experts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::post.post",
+      "inversedBy": "experts"
+    },
+    "slug": {
+      "pluginOptions": {},
+      "type": "uid",
+      "targetField": "surname"
+    },
+    "expertise": {
+      "pluginOptions": {},
+      "type": "text"
+    },
+    "recents_publications": {
+      "displayName": "Recents publication",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {},
+      "component": "elements.recents-publication"
+    },
+    "recents_articles": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {},
+      "component": "elements.recents-publication"
+    },
+    "expert": {
+      "pluginOptions": {},
+      "type": "boolean",
+      "default": false
+    },
+    "expert_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "frog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "newsletter_title": {
+      "type": "string"
+    },
+    "subscribe": {
+      "type": "string"
+    },
+    "inscription_confirmed": {
+      "type": "string"
+    },
+    "accept_terms_label": {
+      "type": "string"
+    },
+    "accept_term_message": {
+      "type": "richtext"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo_epfl": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "logo_unil": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_how_missions",
+  "info": {
+    "displayName": "How mission",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

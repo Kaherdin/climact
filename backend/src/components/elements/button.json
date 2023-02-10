@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_elements_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "bullseye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "success",
+        "warning",
+        "danger",
+        "info",
+        "gray"
+      ]
+    },
+    "outline": {
+      "type": "boolean",
+      "default": false
+    },
+    "fa_icon": {
+      "type": "string"
+    }
+  }
+}

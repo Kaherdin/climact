@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_presenters",
+  "info": {
+    "displayName": "Presenter",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "member": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::member.member"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

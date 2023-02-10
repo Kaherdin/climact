@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_links_and_documents",
+  "info": {
+    "displayName": "Links & Documents",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "display_name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
